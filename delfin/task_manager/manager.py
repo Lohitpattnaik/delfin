@@ -25,7 +25,7 @@ from delfin.task_manager.tasks import alerts, telemetry
 
 LOG = log.getLogger(__name__)
 
-
+# such a boring class
 class TaskManager(manager.Manager):
     """manage periodical tasks"""
 
